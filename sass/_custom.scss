@@ -1,12 +1,15 @@
 .navbar {
     margin-bottom: 0;
+
     a {
 	color: set-text-color($main-color) !important;
     }
+
     .fa {
 	font-size: 20px;
     }
 }
+
 
 .showcase {
     background: url(../img/showcase.jpeg) no-repeat 0 -100px;
@@ -32,10 +35,10 @@
     text-align: center;
     background: $main-color;
     color: set-text-color($main-color);
-}
 
-.fa {
-    font-size: $icon-size;
+    .fa {
+	font-size: $icon-size;
+    }
 }
 
 
@@ -63,13 +66,14 @@
 
 
 .section-c {
-    padding: 60px;
+    padding: 60px 0;
     text-align: center;
     background: $main-color;
     color: set-text-color($main-color);
 
     .btn-primary {
 	background: darken($main-color, 10%);
+	color: set-text-color($main-color);
     }
 }
 
