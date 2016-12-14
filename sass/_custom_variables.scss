@@ -4,6 +4,9 @@ $bootstrap-sass-asset-helper: false !default;
 // --------------------------------------------------
 
 
+// Custom colors
+$main-color: #1a8c97;
+
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
@@ -370,7 +373,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                #f8f8f8 !default;
+$navbar-default-bg:                $main-color !default;
 $navbar-default-border:            darken($navbar-default-bg, 6.5%) !default;
 
 // Navbar links
