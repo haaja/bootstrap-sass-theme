@@ -78,6 +78,22 @@
 }
 
 
+.title-bar {
+    background: url(../img/showcase.jpeg) no-repeat 0 -550px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid $main-color;
+}
+
+
+.main {
+    margin-top: 30px;
+
+    .btn {
+	background: $main-color;
+	color: set-text-color($main-color);
+    }
+}
+
 footer {
     padding: 30px 0;
     background: darken($main-color, 10%);
